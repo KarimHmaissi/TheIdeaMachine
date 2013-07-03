@@ -1,0 +1,29 @@
+The Idea Machine - 
+
+remove tweets with @
+pull more than 100 tweets -> max_id
+search query list 
+
+#ed613d brand color
+
+
+PROBLEMS:
+
+total vote count is not updated on vote
+
+when a retweet comes through stream check against ids and update retweet count
+
+duplicate voting is restricted by cookie
+
+The highest voted tweets are automatically retweeted/tweeted? by the idea machine twitter account
+
+
+SECONDARY FEATURES:
+
+"26 new" shows when new tweets have come in since the page was loaded. Clicking emptys the tweetContent html and adds in a new request
+
+ability to turn off twitter rendering
+
+Fake twitter account for testing:
+Username: Testing3483984
+PAssword: qpalzm12 
