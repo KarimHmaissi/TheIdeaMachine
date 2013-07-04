@@ -243,16 +243,16 @@
             </div>
         </div>
 
-        <div class="span3 share hide" id="share">
-            <h2>Follow
-                <br/>
-                <span class="highlight">The Idea Machine</span> on twitter</h2>
+        %{--<div class="span3 share hide" id="share">--}%
+        %{--<h2>Follow--}%
+        %{--<br/>--}%
+        %{--<span class="highlight">The Idea Machine</span> on twitter</h2>--}%
 
-            <p><a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="false"
-                  data-lang="en">Follow @twitterapi</a></p>
+        %{--<p><a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="false"--}%
+        %{--data-lang="en">Follow @twitterapi</a></p>--}%
 
-            <p>The Highest voted/most re-tweeted ideas are automatically tweeted by the idea machine</p>
-        </div>
+        %{--<p>The Highest voted/most re-tweeted ideas are automatically tweeted by the idea machine</p>--}%
+        %{--</div>--}%
 
     </div>
 
@@ -337,7 +337,8 @@
         $('#tweetsContent').load('getNewTweets', function (responseTxt,statusTxt,xhr) {
            if(statusTxt == "success") {
                 console.log("recieved tweets from server")
-                loadTwitterJquery()
+                loadHandlers()
+                loadScrolling()
             } else if(statusTxt == 'error') {
                 //Error
             }
@@ -349,17 +350,18 @@
         $('#tweetsContent').load('getHotTweets', function (responseTxt,statusTxt,xhr) {
            if(statusTxt == "success") {
                 console.log("recieved tweets from server")
-                loadTwitterJquery()
+                loadHandlers()
+                loadScrolling()
             } else if(statusTxt == 'error') {
                 //Error
             }
         })
     }
 
-    function loadTwitterJquery() {
-        loadScrolling()
-        loadVoteHandlers()
+    function loadHandlers() {
 
+        loadVoteHandlers()
+        renderTwitterElements()
     }
 
     function loadViewTypeHandlers() {
@@ -370,19 +372,15 @@
             //remove jscroll from tweetContent
             tweetContent.removeData('jscroll')
 
-            loadHotIdeas()
-
             $('html, body').animate({
 	            scrollTop: $("#tweetsContent").offset().top - 60
             }, 500);
 
+            loadHotIdeas()
+
             //switch buttons
             $('#viewHot').attr("disabled", "disabled")
             $('#viewNew').removeAttr("disabled")
-
-            renderTwitterElements()
-
-
         })
 
         $('#viewNew').click(function() {
@@ -392,16 +390,14 @@
             //remove jscroll from tweetContent
             tweetContent.removeData('jscroll')
 
-            loadNewIdeas()
-
             $('html, body').animate({
 	            scrollTop: $("#tweetsContent").offset().top - 60
             }, 500);
 
+            loadNewIdeas()
+
             $('#viewNew').attr("disabled", "disabled")
             $('#viewHot').removeAttr("disabled")
-
-            renderTwitterElements()
         })
     }
 
@@ -429,13 +425,8 @@
                $this.addClass('upvoteSelected')
                $this.attr("disabled", "disabled");
 
-               // Add one to local store of total vote count
-               var tweetId = $this.children('.tweetId').val();
-
-
+               $.get("upvote", { tweetId: $this.attr('id') } );
             })
-
-
         })
 
         $('.downvote').each(function(index) {
@@ -448,12 +439,10 @@
                $this.removeClass('downvote')
                $this.addClass('downvoteSelected')
                $this.attr("disabled", "disabled");
+
+               $.get("downvote", { tweetId: $this.attr('id') } );
             })
-
-            // Add one to local store of total vote count
         })
-
-
     }
 
     function renderTwitterElements() {

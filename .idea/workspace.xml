@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" name="New changelist" comment="Initial Commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/main/_tweetContent.gsp" afterPath="$PROJECT_DIR$/grails-app/views/main/_tweetContent.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/main/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/main/index.gsp" />
+    </list>
+    <list id="da4e3968-b54c-4504-acd8-52e7d898caba" name="Files Not Needing Change" comment="" />
+    <ignored path="TheIdeaMachine.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$USER_HOME$/.grails/" />
+    <ignored mask="*.jar" />
+    <ignored mask="*.class" />
+    <ignored path="target/stacktrace.log" />
+    <file path="/DownloadTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372350728553" ignored="false" />
+    <file path="/BuildConfig.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372067118628" ignored="false" />
+    <file path="/MainController.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372774455625" ignored="false" />
+    <file path="/main.gsp" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372099730548" ignored="false" />
+    <file path="/GetTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372280257170" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372756287683" ignored="false" />
+    <file path="/GetAuthService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372242156571" ignored="false" />
+    <file path="/Message.groovy" changelist="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" time="1372880699055" ignored="false" />
+    <file path="/MainDownloadTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372276961316" ignored="false" />
+    <file path="/ApplicationResources.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372769539309" ignored="false" />
+    <file path="/DownloadTweetsJob.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372100862627" ignored="false" />
+    <file path="/index.gsp" changelist="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" time="1372943081277" ignored="false" />
+    <file path="/loadTweets.js" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372103389472" ignored="false" />
+    <file path="/_tweetContent.gsp" changelist="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" time="1372943253387" ignored="false" />
+    <file path="/a.dummy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372106635808" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/rest-0.7/src/groovy/org/grails/plugins/rest/ssl/HTTPBuilderSSLHelper.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107272511" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/cache-1.0.1/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107272511" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/rest-0.7/src/groovy/org/grails/plugins/rest/ssl/SimpleHTTPBuilderSSLHelper.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107272511" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/tomcat-2.2.1/scripts/Tomcat.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107272711" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/jquery-1.8.3/web-app/js/jquery/jquery-1.8.3.js" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107272711" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.1/projects/TheIdeaMachine/plugins/database-migration-1.3.2/scripts/DbmRegisterChangelog.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372107273098" ignored="false" />
+    <file path="/MessageController.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372189115400" ignored="false" />
+    <file path="$PROJECT_DIR$/../BacklinkAnalyser/BacklinkAnalyserFrontEnd/web-app/css/mycustom.css" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372173509456" ignored="false" />
+    <file path="/fragment.java" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372588710235" ignored="false" />
+    <file path="/bootstrap.min.css" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372282434433" ignored="false" />
+    <file path="/reveal.css" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372331921620" ignored="false" />
+    <file path="$PROJECT_DIR$/test/unit/org/hmaissi/theideamachine/downloadTweetsOLD/DownloadTweetsServiceTests.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372344827316" ignored="false" />
+    <file path="$PROJECT_DIR$/test/unit/org/hmaissi/theideamachine/downloadTweetsOLD/MainDownloadTweetsServiceTests.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372344827316" ignored="false" />
+    <file path="/MainStatusListener.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372668856981" ignored="false" />
+    <file path="/DownloadTweetMarkupService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372516423326" ignored="false" />
+    <file path="/DownloadStreamingTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372672180913" ignored="false" />
+    <file path="/SaveTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372774439915" ignored="false" />
+    <file path="/Config.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372503407146" ignored="false" />
+    <file path="/DownloadOldTweetsService.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372594027384" ignored="false" />
+    <file path="/DataSource.groovy" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372604076323" ignored="false" />
+    <file path="/_newTweets.gsp" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372770877623" ignored="false" />
+    <file path="/_hotTweets.gsp" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372770889303" ignored="false" />
+    <file path="/_paginationHotTweets.gsp" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372770940477" ignored="false" />
+    <file path="/_paginationNewTweets.gsp" changelist="ebd7be3b-d4b1-4f20-b728-773c674f459d" time="1372770949264" ignored="false" />
+    <file path="/Dummy.txt" changelist="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" time="1372941090145" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TheIdeaMachine" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/main/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="422" column="23" selection-start="11398" selection-end="11398" vertical-scroll-proportion="8.744422">
+              <folding>
+                <marker date="1372943298182" expanded="true" signature="7383:8733" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="7980:8060" placeholder="//..." />
+                <marker date="1372943298182" expanded="true" signature="8311:8434" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="8765:9158" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="8894:9151" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="8934:9071" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9102:9141" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9188:9581" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9317:9574" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9357:9494" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9525:9564" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9611:9678" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9716:10751" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9757:10244" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="9988:10065" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="10286:10744" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="10517:10594" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="10782:11068" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="10820:11059" placeholder="{&quot;loadingHtml&quot;: '&lt;img src=&quot;../images/loading.gif&quot; alt=&quot;Loading&quot;/&gt; Loading...'...}" />
+                <marker date="1372943298182" expanded="true" signature="11102:12154" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="11193:11642" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="11328:11631" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="11689:12147" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="11825:12136" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="12193:12396" placeholder="{...}" />
+                <marker date="1372943298182" expanded="true" signature="12263:12389" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tweetContent.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/main/_tweetContent.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="92" selection-start="575" selection-end="575" vertical-scroll-proportion="-3.8163266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="38" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/hmaissi/theideamachine/twitter/Message.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="69" selection-start="259" selection-end="259" vertical-scroll-proportion="1.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/hmaissi/theideamachine/twitter/MainController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="36" selection-start="2432" selection-end="2439" vertical-scroll-proportion="-4.130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Karim Hmaissi" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/groovy/org/hmaissi/theideamachine/downloadTweets/MainStatusListener.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/org/hmaissi/theideamachine/downloadTweets/DownloadStreamingTweetsService.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/waypoints.min.js" />
+        <option value="$PROJECT_DIR$/web-app/js/scrollTo.min.js" />
+        <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/_newTweets.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/_hotTweets.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/_paginationHotTweets.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/_paginationNewTweets.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/org/hmaissi/theideamachine/twitter/MainController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/org/hmaissi/theideamachine/downloadTweets/SaveTweetsService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/grails-app/domain/org/hmaissi/theideamachine/twitter/Message.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/_tweetContent.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/index.gsp" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheIdeaMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheIdeaMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheIdeaMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheIdeaMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheIdeaMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="230" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="233" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="233" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="231" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/services/org/hmaissi/theideamachine/downloadTweets" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\lib" />
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\web-app\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\web-app\images" />
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\web-app\css" />
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\web-app\js" />
+      <recent name="C:\Users\Karim\Desktop\newgrailsapp\TheIdeaMachine\lib" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.hmaissi.theideamachine.downloadTweets" />
+      <recent name="org.hmaissi.theideamachine.downloadTweetsDEPRECATED" />
+      <recent name="org.hmaissi.theideamachine.twitter" />
+      <recent name="org.hmaissi.theideadmachine.twitter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Grails.Grails:TheIdeaMachine">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Grails:TheIdeaMachine" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="TheIdeaMachine" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
+      <RunnerSettings RunnerId="GrailsMavenDebuggerRunner">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:TheIdeaMachine" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eee88ac0-8eae-41d7-9e37-2b26cbfb5f81" name="New changelist" comment="" />
+      <changelist id="da4e3968-b54c-4504-acd8-52e7d898caba" name="Files Not Needing Change" comment="" />
+      <created>1372065453101</created>
+      <updated>1372065453101</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Rejected commit: Default">
+      <created>1372868967376</created>
+      <updated>1372868967376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rejected commit: Default">
+      <created>1372872720508</created>
+      <updated>1372872720508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1372874749214</created>
+      <updated>1372874749214</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial Commit">
+      <created>1372877729500</created>
+      <updated>1372877729500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="grails-app initial commit">
+      <created>1372878663347</created>
+      <updated>1372878663347</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wep-app initial commit">
+      <created>1372878772486</created>
+      <updated>1372878772486</updated>
+    </task>
+    <task id="LOCAL-00007" summary="misc initial commit">
+      <created>1372879335495</created>
+      <updated>1372879335495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wep-app initial commit">
+      <created>1372879414417</created>
+      <updated>1372879414417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="wep-app css initial commit">
+      <created>1372879645993</created>
+      <updated>1372879645993</updated>
+    </task>
+    <task id="LOCAL-00010" summary="wep-app js initial commit">
+      <created>1372879688077</created>
+      <updated>1372879688077</updated>
+    </task>
+    <task id="LOCAL-00011" summary="wep-app images initial commit">
+      <created>1372879773117</created>
+      <updated>1372879773117</updated>
+    </task>
+    <task id="LOCAL-00012" summary="wep-app inf initial commit">
+      <created>1372879990237</created>
+      <updated>1372879990237</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initial Commit">
+      <created>1372880305144</created>
+      <updated>1372880305144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="0" width="1696" height="1026" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3314154" sideWeight="0.4902081" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37280187" sideWeight="0.994985" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33217993" sideWeight="0.50550795" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30477357" sideWeight="0.6685846" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.4948097" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39700806" sideWeight="0.4853121" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33564013" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3359853" sideWeight="0.36248562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3003452" sideWeight="0.9687084" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32410613" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55594003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Rejected commit: Default" />
+    <MESSAGE value="grails-app initial commit" />
+    <MESSAGE value="misc initial commit" />
+    <MESSAGE value="wep-app initial commit" />
+    <MESSAGE value="wep-app css initial commit" />
+    <MESSAGE value="wep-app js initial commit" />
+    <MESSAGE value="wep-app images initial commit" />
+    <MESSAGE value="wep-app inf initial commit" />
+    <MESSAGE value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/main/_paginationNewTweets.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="70" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/main/_paginationHotTweets.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="74" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.3469388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.337731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/jscroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="0.47887325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/org/hmaissi/theideamachine/downloadTweets/SaveTweetsService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="43" selection-start="679" selection-end="679" vertical-scroll-proportion="0.53333336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheIdeaMachine.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="637" selection-end="660" vertical-scroll-proportion="0.5472837" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap backup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.50246304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/images/landscape.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="-1.2983294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="335" selection-end="335" vertical-scroll-proportion="0.9204152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/hmaissi/theideamachine/twitter/Message.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="69" selection-start="259" selection-end="259" vertical-scroll-proportion="1.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/hmaissi/theideamachine/twitter/MainController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="36" selection-start="2432" selection-end="2439" vertical-scroll-proportion="-4.130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/main/_tweetContent.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="92" selection-start="575" selection-end="575" vertical-scroll-proportion="-3.8163266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/main/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="23" selection-start="11398" selection-end="11398" vertical-scroll-proportion="8.744422">
+          <folding>
+            <marker date="1372943298182" expanded="true" signature="7383:8733" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="7980:8060" placeholder="//..." />
+            <marker date="1372943298182" expanded="true" signature="8311:8434" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="8765:9158" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="8894:9151" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="8934:9071" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9102:9141" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9188:9581" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9317:9574" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9357:9494" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9525:9564" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9611:9678" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9716:10751" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9757:10244" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="9988:10065" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="10286:10744" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="10517:10594" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="10782:11068" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="10820:11059" placeholder="{&quot;loadingHtml&quot;: '&lt;img src=&quot;../images/loading.gif&quot; alt=&quot;Loading&quot;/&gt; Loading...'...}" />
+            <marker date="1372943298182" expanded="true" signature="11102:12154" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="11193:11642" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="11328:11631" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="11689:12147" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="11825:12136" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="12193:12396" placeholder="{...}" />
+            <marker date="1372943298182" expanded="true" signature="12263:12389" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="grailsSettings">
+    <option name="map">
+      <map>
+        <entry key="TheIdeaMachine">
+          <value>
+            <GrailsSettings>
+              <option name="buildConfigCrc" value="-1172143933" />
+              <option name="pluginDependenciesCrc" value="-777179931" />
+              <option name="properties">
+                <map>
+                  <entry key="grails.global.plugins.dir" value="C:\Users\Karim\.grails\2.2.1\global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="C:\Users\Karim\.grails\2.2.1\projects\TheIdeaMachine\plugins" />
+                  <entry key="grails.project.work.dir" value="C:\Users\Karim\.grails\2.2.1\projects\TheIdeaMachine" />
+                  <entry key="grails.work.dir" value="C:\Users\Karim\.grails\2.2.1" />
+                </map>
+              </option>
+            </GrailsSettings>
+          </value>
+        </entry>
+        <entry key="TheIdeaMachine-grailsPlugins">
+          <value>
+            <GrailsSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TheIdeaMachine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
