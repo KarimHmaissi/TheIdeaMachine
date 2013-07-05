@@ -2,8 +2,6 @@ package org.hmaissi.theideamachine.twitter
 
 class Message {
 
-    static scaffold = true
-
     String text
     Integer retweetCount
     Integer favouriteCount
