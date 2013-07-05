@@ -17,12 +17,15 @@ duplicate voting is restricted by cookie
 
 The highest voted tweets are automatically retweeted/tweeted? by the idea machine twitter account
 
+Discount favourite towards voting
 
 SECONDARY FEATURES:
 
 "26 new" shows when new tweets have come in since the page was loaded. Clicking emptys the tweetContent html and adds in a new request
 
 ability to turn off twitter rendering
+
+
 
 Fake twitter account for testing:
 Username: Testing3483984

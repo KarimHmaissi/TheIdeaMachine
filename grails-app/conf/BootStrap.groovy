@@ -9,7 +9,7 @@ class BootStrap {
 
         saveTweetsService.initSavedTweetIds()
 
-//        downloadOldTweetsService.start()
+        downloadOldTweetsService.start()
 
         downloadStreamingTweetsService.connectToStream()
     }

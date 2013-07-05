@@ -41,7 +41,8 @@ grails.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
 
-        runtime 'mysql:mysql-connector-java:5.1.22'
+//        runtime 'mysql:mysql-connector-java:5.1.22'
+        runtime 'postgresql:postgresql:8.4-702.jdbc3'
     }
 
     plugins {
@@ -64,7 +65,8 @@ grails.project.dependency.resolution = {
 
         compile ":twitter4j:0.3.2"
 
-        compile ":rabbitmq:1.0.0"
+        compile ':heroku:1.0.1'
+        compile ':cloud-support:1.0.8'
 
     }
 }

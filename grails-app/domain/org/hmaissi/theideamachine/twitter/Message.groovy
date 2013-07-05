@@ -36,7 +36,7 @@ class Message {
     }
 
     static mapping = {
-        totalVotes formula: '(upvotes - downvotes) + retweet_count + favourite_count'
+        totalVotes formula: '(upvotes - downvotes) + retweet_count'
     }
 
 

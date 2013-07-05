@@ -103,17 +103,4 @@ twitter {
 
 }
 
-rabbitmq {
-    connectionfactory {
-        username = 'guest'
-        password = 'guest'
-        hostname = 'localhost'
-        concurrentConsumers = 1
-
-    }
-
-    queues = {
-        defaultList autoDelete: false, durable: true, exclusive: false
-    }
-}
 
