@@ -65,7 +65,9 @@ grails.project.dependency.resolution = {
 
         compile ":twitter4j:0.3.2"
 
-        compile ':heroku:1.0.1'
+        compile(':heroku:1.0.1') {
+            exclude 'database-session'
+        }
         compile ':cloud-support:1.0.8'
 
     }
