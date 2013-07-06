@@ -3,10 +3,14 @@ package org.hmaissi.theideamachine.downloadTweets
 import grails.converters.JSON
 import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
-import org.json.simple.JSONObject
+import twitter4j.internal.org.json.JSONObject
 
 import static groovyx.net.http.Method.GET
 
+/**
+ * Download past tweets stored on twitter
+ * Uses twitter search filter GET api
+ */
 class DownloadOldTweetsService {
 
     def appOnlyAuthService
@@ -24,6 +28,11 @@ class DownloadOldTweetsService {
         }
     }
 
+    /**
+     * Downloads pages of tweets from twitter api. Continues to request pages until response return less tweets than count
+     * or until NUMBER_OF_PAGES is reached
+     * @param searchQuery
+     */
     private void downloadPages(String searchQuery) {
         String authToken = appOnlyAuthService.loadToken()
 
@@ -91,7 +100,7 @@ class DownloadOldTweetsService {
 
     }
 
-    //Initial load = flag for requesting page 1 off twitter feed
+    //Initial load = flag for requesting page 1 from twitter
     private String downloadTweets(String authToken, String searchQuery, boolean initalLoad, long maxId, int count) {
 
         try {

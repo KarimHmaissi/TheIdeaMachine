@@ -2,7 +2,8 @@ package org.hmaissi.theideamachine.downloadTweetsDEPRECATED
 
 import grails.converters.JSON
 import org.hmaissi.theideamachine.twitter.Message
-import org.json.simple.JSONObject
+import twitter4j.internal.org.json.JSONObject
+
 
 class MainDownloadTweetsService {
 

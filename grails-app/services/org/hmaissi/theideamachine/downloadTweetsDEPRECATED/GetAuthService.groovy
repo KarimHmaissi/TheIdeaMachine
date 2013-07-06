@@ -5,7 +5,8 @@ import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
 import groovyx.net.http.Method
 import org.apache.commons.codec.binary.Base64
-import org.json.simple.JSONObject
+import twitter4j.internal.org.json.JSONObject
+
 
 /**
  * Downloads a bearer token from twitter for authorising search api requests with app only oauth

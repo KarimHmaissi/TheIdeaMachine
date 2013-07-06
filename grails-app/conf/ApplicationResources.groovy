@@ -1,6 +1,8 @@
 modules = {
     application {
-        resource url: 'js/application.js'
+        resource url: 'js/main.js'
+        resource url: '/css/style.css'
+
     }
 
     bootstrap {

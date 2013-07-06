@@ -1,44 +1,15 @@
 package org.hmaissi.theideamachine.twitter
 
+/**
+ * Main controller
+ * Due to the simplicity of this app this controller handles all requests coming in
+ */
 class MainController {
-
-    def mainDownloadTweetsService
 
     def index() {
 
         render(view: "index")
     }
-
-//    def list(Integer max) {
-//        //TODO edit query to ensure html != empty and order by dataCreated
-//        println("list mainController called ----------")
-//        params.max = Math.min(max ?: 10, 100)
-//
-//        List<Message> messages = Message.list(params)
-//
-//        println "Messages size: " + messages.size()
-//
-//        render(template: "tweetContent",
-//                //Shuffles list of messages randomly
-//                model:[messageInstanceList: messages, messageInstanceTotal: Message.count()])
-//    }
-
-//    def list(Integer max) {
-//        println("list mainController called ----------")
-//
-//        params.max = Math.min(max ?: 10, 100)
-//
-//        def criteria = Message.createCriteria()
-//        List<Message> messages = criteria.list(params) {
-//            order("dateTweetCreated", "desc")
-//        }
-//
-//        println "Messages size: " + messages.size()
-//
-//        render(template: "tweetContent",
-//                //Shuffles list of messages randomly
-//                model:[messageInstanceList: messages, messageInstanceTotal: Message.count()])
-//    }
 
     def getNewTweets(Integer max) {
         println("list getNewTweets called ----------")
@@ -122,8 +93,4 @@ class MainController {
         }
     }
 
-//    def tempLoadTweetsFromTwitter() {
-//        mainDownloadTweetsService.start()
-//        redirect(action: "index")
-//    }
 }

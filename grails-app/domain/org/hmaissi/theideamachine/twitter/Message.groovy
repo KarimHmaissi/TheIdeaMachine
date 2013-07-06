@@ -18,16 +18,6 @@ class Message {
 
     Integer totalVotes
 
-//    Integer getTotalVotes() {
-//        if (upvotes > downvotes) {
-//            return (upvotes - downvotes) + retweetCount
-//        } else {
-//            return retweetCount
-//        }
-//    }
-//
-//    static transients = ['totalVotes']
-
     static constraints = {
         tweetId unique: true
         html maxSize: 5000

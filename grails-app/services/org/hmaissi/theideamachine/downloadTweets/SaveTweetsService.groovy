@@ -2,15 +2,15 @@ package org.hmaissi.theideamachine.downloadTweets
 
 import grails.converters.JSON
 import org.hmaissi.theideamachine.twitter.Message
-import org.json.simple.JSONObject
 import twitter4j.Status
+import twitter4j.internal.org.json.JSONObject
 
+//import org.json.simple.JSONObject
 import java.text.SimpleDateFormat
 
 /**
  * Save tweets to the database
  * Tweets are filtered and saved to the db.
- * On a successful save a aqmp message is sent to queue up request for tweet markup
  */
 class SaveTweetsService {
 
@@ -86,14 +86,6 @@ class SaveTweetsService {
 
             //Send rabbitmq message to download html
 //            sendAQMPMessage(status.id)
-
-//            println "Message----------"
-//            println message.text
-//            println message.screenName
-//            println message.name
-//            println message.tweetId
-//            println message.retweetCount
-//            println message.dateTweetCreated
 
             saveMessage(message)
         }

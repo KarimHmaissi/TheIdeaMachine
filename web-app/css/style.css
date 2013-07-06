@@ -1,0 +1,133 @@
+.marginTop {
+    margin-top: 25px;
+}
+
+.marginBottom {
+    margin-bottom: 30px;
+}
+
+.smallMarginBottom {
+    margin-bottom: 20px;
+}
+
+.removeMargin {
+    margin: 0px;
+}
+
+ul {
+    list-style: none !important;
+}
+
+.mainTitle {
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 0.19em;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    font-weight: normal !important;
+
+}
+
+.highlight {
+    color: #ed613d;
+    font-size: 150%;
+}
+
+.hide {
+    display: none
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tweetPromo {
+    background-color: white;
+    margin-left: 50%;
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    margin-top: 141px;
+    width: 400px;
+}
+
+p.tagLine {
+    font-size: 26px;
+    margin-bottom: 18px;
+    line-height: 30px;
+}
+
+/* Controls
+*/
+
+.controls {
+    width: 100% !important;
+}
+
+.controlsMain {
+    padding: 10px;
+    text-align: center;
+}
+
+.share {
+    padding: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* 50% transparent */
+}
+
+/* Voting css
+*/
+.voteHolder {
+    padding-left: 75%;
+    padding-top: 25%;
+}
+
+.voteCount {
+    font-size: 200%;
+}
+
+.voteCountHolder {
+    /*margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+    /*margin-left: 5px;*/
+    margin-bottom: 3px;
+    margin-top: -18px;
+    /*margin-left: 3px;*/
+}
+
+.vote {
+    width: 50px !important;
+    height: 50px !important;
+    cursor: pointer;
+    border: none;
+}
+
+.upvote {
+    background: url('../images/upvote.png') no-repeat;
+}
+
+.downvote {
+    background: url('../images/downvote.png') no-repeat;
+}
+
+.upvote:hover {
+    background: url('../images/upvoteSelected.png') no-repeat;
+}
+
+.downvote:hover {
+    background: url('../images/downvoteSelected.png') no-repeat;
+}
+
+.upvoteSelected {
+    background: url('../images/upvoteSelected.png') no-repeat;
+}
+
+.downvoteSelected {
+    background: url('../images/downvoteSelected.png') no-repeat;
+}
