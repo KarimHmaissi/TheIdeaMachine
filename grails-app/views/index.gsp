@@ -98,7 +98,7 @@
 
             console.log("document ready called")
 
-            $.backstretch("${resource(dir: 'images', file: 'landscape.png')}");
+            $.backstretch("${resource(dir: 'images', file: 'landscape.jpg')}");
 
             loadHotIdeas()
 
