@@ -6,6 +6,8 @@ package org.hmaissi.theideamachine.twitter
  */
 class MainController {
 
+    static List<Long> idsReturned = new ArrayList<Long>()
+
     def index() {
 
         render(view: "index")
@@ -14,10 +16,11 @@ class MainController {
     def getNewTweets(Integer max) {
         println("list getNewTweets called ----------")
 
-        params.max = Math.min(max ?: 10, 100)
+        params.max = 10
 
         def criteria = Message.createCriteria()
         List<Message> messages = criteria.list(params) {
+            resultTransformer org.hibernate.Criteria.DISTINCT_ROOT_ENTITY
             order("dateTweetCreated", "desc")
         }
 
@@ -31,12 +34,21 @@ class MainController {
     def getHotTweets(Integer max) {
         println("list getHotTweets called ----------")
 
-        params.max = Math.min(max ?: 10, 100)
+        params.max = 10
 
-        def criteria = Message.createCriteria()
-        List<Message> messages = criteria.list(params) {
-            order("totalVotes", "desc")
+        if (params.offset == null) {
+            params.offset = 0
         }
+
+        def queryParams = [
+                max: params.max,
+                offset: params.offset
+        ]
+
+        //Query changed to HQL to ensure no duplicate entries are returned
+        List<Message> messages = Message.executeQuery(
+                " SELECT DISTINCT a FROM Message a ORDER BY a.totalVotes desc",
+                queryParams)
 
         println "Messages size: " + messages.size()
 
@@ -90,6 +102,46 @@ class MainController {
                 return null
             }
 
+        }
+    }
+
+    /**
+     * Debug method used to check for duplicate tweets returned by getHotTweets query
+     */
+    private void checkForDups() {
+
+        Set<Long> set = new HashSet<>(idsReturned.size(), 1);
+        List<Long> dupIds = new ArrayList<>()
+
+        for (Long id : idsReturned) {
+            boolean unique = set.add(id);
+
+            if (!unique) {
+                dupIds.add(id)
+            }
+        }
+        if (set.size() != idsReturned.size()) {
+            println "++++++++++ERROR!!!!!!+++++++++"
+            println "++++++++++Duplicate tweets detected!!!!!!+++++++++"
+            println "++++++++++ERROR!!!!!!+++++++++"
+            println "Size of idsReturned: " + idsReturned.size()
+            println "Size of set: " + set.size()
+
+            println "dupIds size: " + dupIds.size()
+            for (Long id : dupIds) {
+                Message message = Message.findByTweetId(id)
+                println " "
+                println "Message Details:"
+                println message.tweetId
+                println message.id
+                println message.upvotes
+                println message.downvotes
+                println message.totalVotes
+                println message.text
+                println "End Message Details:"
+                println " "
+
+            }
         }
     }
 
