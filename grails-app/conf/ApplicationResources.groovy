@@ -8,6 +8,7 @@ modules = {
     bootstrap {
         resource url: '/js/bootstrap.min.js'
         resource url: '/css/bootstrap.min.css'
+//        resource url: '/css/bootstrap-responsive.css'
     }
 
     backstretch {
@@ -34,6 +35,23 @@ modules = {
 
     waypoint {
         resource url: '/js/waypoints.min.js'
+    }
+
+    stellar {
+        resource url: '/js/jquery.stellar.js'
+    }
+
+    skrollr {
+        resource url: '/js/skrollr.js'
+    }
+
+    jquery {
+        resource url: '/js/jquery-1.8.2.min.js'
+    }
+
+    chardin {
+        resource url: '/js/chardinjs.min.js'
+        resource url: '/css/chardinjs.css'
     }
 
 
