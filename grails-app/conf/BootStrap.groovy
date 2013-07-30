@@ -11,7 +11,7 @@ class BootStrap {
 
 //        downloadOldTweetsService.start()
 
-//        downloadStreamingTweetsService.connectToStream()
+        downloadStreamingTweetsService.connectToStream()
     }
 
     def destroy = {

@@ -263,6 +263,19 @@ a.logo:hover {
     margin: 35px;
 }
 
+/**
+ * Modal Popups
+ */
+.modal {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 /*
  * Media Queries
  */
