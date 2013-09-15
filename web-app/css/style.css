@@ -25,10 +25,6 @@ blockquote.twitter-tweet {
 }
 
 .text {
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-size: 24px !important;*/
-    /*line-height: 30px !important;*/
-    /*font-weight: normal !important;*/
     font-size: 16px;
 }
 
@@ -134,13 +130,6 @@ ul {
 }
 
 .voteCountHolder {
-    /*margin-bottom: 10px;*/
-    /*margin-top: 10px;*/
-    /*margin-left: 5px;*/
-    /*margin-bottom: 3px;*/
-    /*margin-top: -18px;*/
-    /*margin-left: 3px;*/
-
     padding-left: 3px;
 }
 
@@ -180,10 +169,6 @@ ul {
 /*
  * Controls Main
  */
-.controlsMain {
-    /*position: fixed;*/
-    /*margin-top: 45px;*/
-}
 
 /*
  * NavBar
@@ -348,19 +333,6 @@ a.logo:hover {
         margin-left: 0px;
         margin-right: 0px;
     }
-
-    /*.heading {*/
-    /*text-align: center;*/
-    /*margin-top: 140px;*/
-    /*opacity: 1;*/
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    /*position: absolute;*/
-    /*left: 0px;*/
-    /*}*/
-
-    /*.headingImage {*/
-    /*margin-top: 0px;*/
-    /*}*/
 }
 
 /* Landscape phone to portrait tablet */
@@ -416,21 +388,6 @@ a.logo:hover {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    /*.heading {*/
-    /*background: url('../images/heading.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 90% 90%;*/
-    /*height: 350px;*/
-    /*width: 100% !important;*/
-    /*margin-left: 15px !important;*/
-    /*margin-top: 10px;*/
-    /*}*/
-
-    /*.heading:hover {*/
-    /*background: url('../images/headingHover.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 90% 90%;*/
-    /*}*/
 
     #bubble1 {
         /*top: 26%;*/
@@ -461,27 +418,6 @@ a.logo:hover {
         margin-right: 0px;
     }
 
-    /*.heading {*/
-    /*text-align: center;*/
-    /*}*/
-
-    /*.headingImage {*/
-    /*margin-top: 115px;*/
-
-    /*background:#00ff00;*/
-
-    /* link to other image */
-    /*background-image: url('../images/mobileheading.png');*/
-    /*background-size: 100% 100%;*/
-    /* hide src */
-    /*height:0;*/
-    /*width:0;*/
-
-    /* just show the background */
-    /*padding:55px 60px;*/
-
-    /*}*/
-
     .heading {
         text-align: center;
         margin-top: 140px;
@@ -495,64 +431,3 @@ a.logo:hover {
         margin-top: 0px;
     }
 }
-
-/*
- * Deprec
- */
-
-/*.marginTop {*/
-/*margin-top: 25px;*/
-/*}*/
-
-/*.smallMarginBottom {*/
-/*margin-bottom: 20px;*/
-/*}*/
-
-/*.removeMargin {*/
-/*margin: 0px;*/
-/*}*/
-
-/*.mainTitle {*/
-/*font-size: 60px;*/
-/*font-weight: 500;*/
-/*text-transform: uppercase;*/
-/*line-height: 70px;*/
-/*letter-spacing: 0.19em;*/
-/*text-shadow: 1px 1px 1px #000;*/
-/*}*/
-
-/*.tweetPromo {*/
-/*background-color: white;*/
-/*margin-left: 50%;*/
-/*position: fixed;*/
-/*top: 25%;*/
-/*left: 15%;*/
-/*margin-top: 141px;*/
-/*width: 400px;*/
-/*}*/
-
-/*p.tagLine {*/
-/*font-size: 26px;*/
-/*margin-bottom: 18px;*/
-/*line-height: 30px;*/
-/*}*/
-
-/*.whiteBG {*/
-/*padding: 25px;*/
-/*color: white;*/
-/*background: rgba(0, 0, 0, 0.8);*/
-/*margin: 10px;*/
-/*text-align: center;*/
-/*width: 410px;*/
-/*}*/
-
-/*.tline {*/
-/*margin-bottom: 30px;*/
-/*background-color: rgba(255,255,255,0.5);*/
-/*}*/
-
-/*.container {*/
-/*color:white;*/
-/*background-color: rgba(0, 0, 0, 0.2);*/
-
-/*}*/
