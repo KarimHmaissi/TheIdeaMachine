@@ -3,7 +3,10 @@
  *
  */
 
-
+/**
+ * Called on page load
+ * @param bgImageUrl
+ */
 function init(bgImageUrl) {
 
     //init background image plugin
@@ -17,6 +20,7 @@ function init(bgImageUrl) {
         $heading = $('#heading'),
         $tweetContainer = $('.tweetContainer');
 
+    //Paralax scrolling. jQuery plugin
     skrollr.init();
 
     $controlsMain.sticky({topSpacing: 50});
@@ -42,10 +46,12 @@ function init(bgImageUrl) {
 
     });
 
+    //when $tweetContainer reaches the top of the viewport run
     $tweetContainer.waypoint(function () {
         $('.bubbleNav').css("display", "none");
     });
 
+    //when $heading reaches the top of the viewport run
     $heading.waypoint(function () {
         $heading.show("bounce", 1000);
     });
@@ -58,12 +64,16 @@ function init(bgImageUrl) {
     renderTwitterElements();
 }
 
+
+/**
+ * Loads new tweets fresh from stream
+ */
 function loadNewIdeas() {
     console.log("loading new ideas");
     $('#tweetsContent').load('main/getNewTweets', function (responseTxt, statusTxt, xhr) {
         if (statusTxt == "success") {
-            console.log("recieved tweets from server");
-            loadHandlers();
+            console.log("received tweets from server");
+            renderTwitterElements();
             loadScrolling();
         } else if (statusTxt == 'error') {
             //Error
@@ -71,22 +81,20 @@ function loadNewIdeas() {
     })
 }
 
+/**
+ * Loads tweets ordered by votes/retweets
+ */
 function loadHotIdeas() {
     console.log("loading hot ideas");
     $('#tweetsContent').load('main/getHotTweets', function (responseTxt, statusTxt, xhr) {
         if (statusTxt == "success") {
-            console.log("recieved tweets from server");
-            loadHandlers();
+            console.log("received tweets from server");
+            renderTwitterElements();
             loadScrolling();
         } else if (statusTxt == 'error') {
             //Error
         }
     })
-}
-
-function loadHandlers() {
-
-    renderTwitterElements();
 }
 
 function loadViewTypeHandlers() {
@@ -126,6 +134,9 @@ function loadViewTypeHandlers() {
     })
 }
 
+/**
+ * Implements jscroll a jQuery plugin to handle infinite scrolling and loading of tweets
+ */
 function loadScrolling() {
     $('#tweetsContent').jscroll({
         loadingHtml: '<img src="../images/loading.gif" alt="Loading"/> Loading...',
@@ -135,6 +146,9 @@ function loadScrolling() {
     });
 }
 
+/**
+ * Add handlers to voting buttons
+ */
 function loadVoteHandlers() {
     console.log("adding vote handlers++");
 
@@ -159,10 +173,12 @@ function loadVoteHandlers() {
     })
 }
 
+/**
+ * Renders tweets
+ */
 function renderTwitterElements() {
     $.getScript('//platform.twitter.com/widgets.js', function () {
-        //calling method load
-        console.log("rendering tweets");
+//        console.log("rendering tweets");
         twttr.widgets.load();
     })
 }

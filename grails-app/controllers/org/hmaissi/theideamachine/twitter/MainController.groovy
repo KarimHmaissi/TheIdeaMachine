@@ -13,6 +13,12 @@ class MainController {
         render(view: "index")
     }
 
+    /**
+     * Pulls tweets ordered by date from DB
+     * Uses template "newTweets"
+     * Expected to be the results of a ajax request
+     * @param max maximum number of tweets to return. HardCoded to 10
+     */
     def getNewTweets(Integer max) {
         println("list getNewTweets called ----------")
 
@@ -31,6 +37,12 @@ class MainController {
                 model: [messageInstanceList: messages, messageInstanceTotal: Message.count()])
     }
 
+    /**
+     * Pulls tweets ordered by vote count
+     * Uses template "hotTweets"
+     * Expected to be the results of a ajax request
+     * @param max maximum number of tweets to return. HardCoded to 10
+     */
     def getHotTweets(Integer max) {
         println("list getHotTweets called ----------")
 
@@ -57,6 +69,11 @@ class MainController {
                 model: [messageInstanceList: messages, messageInstanceTotal: Message.count()])
     }
 
+    /**
+     * Updates the vote count on a message object
+     * Expects a ajax request
+     * @return totalVote count
+     */
     def upvote() {
 
         println "upvote"
@@ -72,6 +89,11 @@ class MainController {
         render "error"
     }
 
+    /**
+     * Updates the vote count on a message object
+     * Expects a ajax request
+     * @return totalVote count
+     */
     def downvote() {
 
         println "downvote"
@@ -88,6 +110,11 @@ class MainController {
 
     }
 
+    /**
+     * Returns a single Message by specifying the tweetID
+     * @param tweetId
+     * @return Message
+     */
     private Message getMessageByTweetId(String tweetId) {
 
         if (tweetId != null) {

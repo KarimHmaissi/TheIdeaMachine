@@ -28,7 +28,7 @@
 
     <div class="row-fluid" id="heading">
         <div class="span6 offset6 heading" data-0="opacity: 1" data-450="opacity: 0">
-
+            <g:img dir="images" file="heading.png" class="headingImage"/>
         </div>
     </div>
 
@@ -103,7 +103,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
 
 </div>
